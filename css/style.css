@@ -137,6 +137,6 @@ header  {
     display: none;
 }
 
-.card ul li::before {
+.card ul li:nth-child(2)::after{
     content: "👍";
 }
